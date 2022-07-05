@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage ("clone") {
 			steps {
-				git credentialsId: 'github', url: 'https://github.com/tejesh555/applogin.git'
+				git credentialsId: 'applogin', url: 'https://github.com/ganapati123/applogin.git''
 			}
 		}
 		stage ("build") {
